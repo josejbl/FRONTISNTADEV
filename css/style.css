@@ -5,18 +5,35 @@
     --Obtenha:#353535;
     --Branco:#FFFFFF;
     --Letra2:#AFAFAF;
-    --font:'Segoe ui';
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    background-color: chocolate;
+    background-color: #fafafa;
+    margin: 0px;
 }
 .estrutura{
-   position: absolute;
    width: 342px;
    height: 380px;
    background: var(--Branco);
-   left: 500px;
-   top: 150px;
+   margin: 10% auto 0 auto;
+   padding: 30px;
+   background: var(--Branco);
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   display: flex;
+}
+.estrutura2{
+    width: 400px;
+    height: 75px;
+    background: var(--Branco);
+    margin: 1% auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;  
 }
 .estrutura img{
     display: block;
@@ -31,7 +48,6 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-family: Segoe UI;
     border-radius: 2px;
     border-width: 1px;
     color: var(--Letra2);
@@ -40,41 +56,50 @@ body{
     border: 1px solid #DCDCDC;
     height: 35px;
     background-color: var(--background);
+    padding-left: 10px;
 }
 .botao{
     font-size:12px;
     background-color: var(--Botao);
-    position: relative;
-    top:10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 2px;
-    width: 267px;
+    width: 280px;
     height: 35px;
-    font-family: Segoe UI;
     color: var(--Branco);
     border: 1px solid #DCDCDC;
 }
-hr.new {
-    border-top: 1px solid #CBCBCB;
-    margin-top: 200px;
-    position: relative;
-}
-#lh {
-    width: 109px;
-
-    top: 440px;
-    margin-top:32px;
-    width: 109px;
-    border: 1px solid #CBCBCB;
-    margin-left: 37px;
+.separador{
     display: flex;
-    margin: 1px;
-.a{
-    font-size:12px;
-    font-family: Segoe UI;
-
+    height: 50px;
+    align-items: center;
+    color: var(--Letra1);
 }
-
+.separador p{
+    margin: 0 20px;
+    
+}
+.separador hr{
+    color: var(--Letra2);
+    width: 100px;
+    
+}
+a{
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--Botao);
+}
+.aplicativo {
+    width: 400px;
+    height: 75px;
+    display: flex;
+    margin: 1% auto 0 auto;
+    font-size: 12px;
+    align-items: center;
+    flex-direction: column;
+}
+.p{
+    margin: 2% auto 0 auto;
+}
 

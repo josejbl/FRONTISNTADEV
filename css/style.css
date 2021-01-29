@@ -10,10 +10,11 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    background-color: #fafafa;
+    background-color: #f8f8f8;
     margin: 0px;
 }
 .estrutura{
+    border:  1px solid #DCDCDC;
    width: 342px;
    height: 380px;
    background: var(--Branco);
@@ -24,17 +25,9 @@ body{
    align-items: center;
    justify-content: space-between;
    display: flex;
+  
 }
-.estrutura2{
-    width: 400px;
-    height: 75px;
-    background: var(--Branco);
-    margin: 1% auto 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 12px;  
-}
+
 .estrutura img{
     display: block;
     margin-left: auto;
@@ -89,6 +82,19 @@ a{
     font-size: 12px;
     text-decoration: none;
     color: var(--Botao);
+}
+.estrutura2{
+    border:  1px solid #DCDCDC;
+
+    width: 400px;
+    height: 75px;
+    background: var(--Branco);
+    margin: 1% auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;  
+    
 }
 .aplicativo {
     width: 400px;
